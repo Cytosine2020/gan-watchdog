@@ -1,0 +1,13 @@
+[config]
+# shadowsocks = "shadowsocks"
+# wireguard = "wireguard"
+
+[email]
+# receiver = "receiver@example.org"
+# sender = "receiver@example.org"
+
+[check]
+# probe = "127.0.0.1"
+# tries = 3
+# timeout = 5
+# interval = 60

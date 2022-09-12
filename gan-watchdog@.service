@@ -1,0 +1,9 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/gan-watchdog.py /etc/gan-watchdog/%i.toml
+Restart=on-abort
+
+[Install]
+WantedBy=default.target
